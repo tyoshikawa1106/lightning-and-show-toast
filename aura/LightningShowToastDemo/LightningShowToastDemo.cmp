@@ -1,0 +1,10 @@
+<aura:component controller="ShowToastDemoController" implements="force:appHostable">
+    <div id="aura-page">
+        <div class="container">
+            <ui:button label="Success!" press="{!c.doClickBtn}" />
+        </div>
+        <div class="container">
+            <ui:button label="Error!" press="{!c.doClickErrorBtn}" />
+        </div>
+    </div>
+</aura:component>
